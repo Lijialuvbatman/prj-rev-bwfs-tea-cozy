@@ -1,0 +1,127 @@
+body{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+}
+
+header{
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+header span{
+  display: inline-block;
+  padding: 10px;
+}
+
+a{
+  color: seashell;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article img{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+footer{
+  margin: 30px;
+}
+
+.logo{
+  height: 50px;
+  padding-left: 10px;
+}
+/** this is the class i use more often. **/
+.topspace{
+  padding-top: 69px;
+}
+
+.center{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.articles{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boxtea{
+  margin: 10px;
+  text-align: center;
+}
+
+.locations{
+  width: 1200px;
+  height: 450px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.boxloc{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-around;
+  margin: 15px 20px 100px 20px;
+  opacity: 1.0;
+}
+
+.locations h2{
+  width: 1000px;
+}
+
+.info{
+  height: 200px;
+  text-align: center;
+}
+
+.info h2{
+  padding: 10px;
+}
+
+.info h5{
+  margin: 30px;
+}
+
+.mission{
+  width: 1200px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  text-align: center;
+}
+
+#largeimage{
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+}
